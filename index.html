@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventure</title>
+
+    <!-- Default CSS -->
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+
+    <!-- Navbar Starts -->
+
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-link">
+            <li class="active"><a href="#"></a>Home</li>
+            <li><a href="tours"></a>Tours</li>
+            <li><a href="explore"></a>Explore</li>
+            <li><a href="#"></a>About</li>
+            <li class="ctn"><a href="#"></a>Contact</li>
+            <img src="./images/menu-btn.png" alt="" class="menu-btn">
+        </ul>
+    </nav>
+    <!-- Navbar Ends -->
+
+
+    <!-- Header Section -->
+
+    <header>
+        <div class="header-content">
+            <h2>Explore The Colorful World</h2>
+            <div class="line"></div>
+            <h1>A Wonderful Gift</h1>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+<!-- Header Ends -->
+
+
+<!-- Event Section Starts -->
+<section class="events">
+    <div class="title">
+        <h1>Upcoming Events</h1>
+        <div class="line"></div>
+    </div>
+
+    <div class="row">
+        <div class="col">
+            <img src="./images/img1.png" alt="">
+            <h4>Everest Camp Trek</h4>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam iusto at voluptates veritatis consequatur soluta.</p>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+
+        <div class="col">
+            <img src="./images/img2.png" alt="">
+            <h4>Walking Holidays</h4>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam iusto at voluptates veritatis consequatur soluta.</p>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </div>
+
+</section>
+
+<!-- Event Section Ends -->
+
+<!-- Explore Section Starts -->
+<section class="explore">
+    <div class="explore-content">
+        <h1>EXPLORE THE WORLD</h1>
+        <div class="line"></div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim sapiente, libero nesciunt iure tempora tenetur dignissimos eum, delectus quasi, laboriosam corrupti minima maxime iusto impedit.</p>
+    <a href="#" class="ctn">Learn More</a>
+    </div>
+</section>
+
+<!-- Explore Section Ends -->
+
+<!-- Tours Section Starts -->
+<section class="tours">
+    <div class="row">
+        <div class="col content-col">
+            <h1>UPCOMING TOURS & DESTINATION</h1>
+            <div class="line"></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione voluptatibus, magnam temporibus id delectus fugiat voluptatum odit sed earum voluptates aliquid maiores obcaecati libero rerum!</p>
+            <a href="#" class="ctn">Lern More</a>
+        </div>
+        <div class="col image-col">
+            <div class="image-gallery">
+                <img src="./images/img3.png" alt="">
+                <img src="./images/img4.png" alt="">
+                <img src="./images/img5.png" alt="">
+                <img src="./images/img6.png" alt="">
+            </div>
+        </div>
+    </div>
+    
+</section>
+
+<!-- Tours Section Ends -->
+
+<!-- Footer Section Starts -->
+
+<section class="footer">
+    <p>&copy; All Right Reserved 2023 <br>
+        Designed By <u><B>LALIT PAWAR AT 🤍 FELIX IT'S SYSTEM</B>
+        </u></p>
+</section>
+
+<!-- Footer Section Ends -->
+
+
+<script>
+    
+    const menuBtn = document.querySelector('.menu-btn')
+    const navlinks = document.querySelector('.nav-link')
+
+   menuBtn.addEventListener('click',()=>{
+    navlinks.classList.toggle('mobile-menu')
+   })
+
+</script>
+
+</body>
+</html>
